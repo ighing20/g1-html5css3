@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+#contenedor{
+  width: 80%;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}
+li a:hover{
+  background-color: black;
+  color: blue;
+}
+header h1 {
+  padding-left: 15px;
+  width: 30%;
+  border-style: solid;
+  border-color: black;
+}
+#menu {
+  border-style: solid;
+  border-color: black;
+  background-color: grey;
+}
+
+footer h3{
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+ header img{
+float: right;
+  width: 10%;
+  height: 50px;
+  border-style: solid;
+  border-color: red;
+  /*overflow: hidden;*/
+}
+#content-form{
+ background-color: chartreuse;
+ width: 30%;
+ margin-left: auto;
+ margin-right: auto;
+  line-height: 30px;
+}
+#content-form h2{
+  padding-bottom: 30px;
+}
+footer{
+  border-style: solid;
+  border-color: black;
+}
+section{
+  border-style: solid;
+  border-color: black;
+}
+@media screen and (max-width: 600px){
+  #contenedor{
+    width: 100%; /**/
+  }
+}
+
+</style>
+</head>
+<body>
+<div id="contenedor">
+  <header> 
+    <h1>IGH SOFT</h1>
+    <img src="imagenes/unnamed.jpg">
+  </header>
+  <div id="menu">
+  <ul>
+    
+    <li><a href="">INICIO</a></li>
+    <li><a href="">clientes</a></li>
+    <li><a href="">categoria</a></li>
+
+  </ul>
+
+  </div>
+  <section>
+    <div id="content-form">
+    <form>
+      <h2>Formulario igh</h2>
+      <label>NOMBRE</label>
+      <input type="text" id="fname" name="fname"><br>
+      <label>CATEGORIA</label>
+      <select>
+        <option value="0">Seleccionar</option>
+        <option value="1">Premium</option>
+        <option value="2">Normal</option>
+      </select>
+      <br>
+      <label>TELEFONO</label>
+      <input type="text" name="telefono" pattern="[0-9]{9}" placeholder="Introduce 9 digitos"><br><br>
+      
+      <input type="submit" value="guardar">
+    </form>
+  </div>
+  </section>
+  <footer>
+    <h3>DERECHOS RESERVADOS</h3>
+  </footer>
+</div>
+</body>
+</html>
