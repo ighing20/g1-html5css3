@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl" href="tabla.xsl">
+
+<?xml version="1.0" encoding="utf-8"?>
+<clientes>
+<cliente>
+   <nombre>Juan</nombre>
+   <direccion>SurCo</direccion>
+   <telefono>123456789</telefono>
+</cliente>
+<cliente>
+   <nombre>David</nombre>
+   <direccion>San Borja</direccion>
+   <telefono>789456</telefono>
+</cliente>
+<cliente>
+   <nombre>Luis</nombre>
+   <direccion>Ate</direccion>
+   <telefono>87456932</telefono>
+</cliente>
+</clientes>

@@ -9,6 +9,7 @@
     <!--Indispensable para responsive-->
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link href="caso1.css" rel="stylesheet" />
     <script src="caso1.js"></script>
 </head>
 
@@ -27,7 +28,19 @@
         <label>Sueldo</label>
         <input type="text" id="sueldo" name="sueldo" value="89.00">
 
-        <button id="procesar">Mostrar</button>
+        <button id="open">Mostrar</button>        
+
+        <div id="popup" style="display: none;">            
+            <div class="content-popup">        
+                <div class="close"><a href="#" id="close"><img src="close.png"/></a></div>        
+                <div>
+                    <h2>XMLRAW:</h2>                    
+                    <div id="contenido" style="float:left; width:100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup-overlay"></div>
 
     </form>
 

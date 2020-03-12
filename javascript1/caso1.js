@@ -6,7 +6,7 @@ function mostrar(form) {
   for (var i = 0; i < inputs.length; i++) {
     if (inputs[i].name) {
       xmldata.push(`<${inputs[i].name}>`);
-      xmldata.push(inputs[i].value);      
+      xmldata.push(inputs[i].value);
       xmldata.push("</", inputs[i].name, ">");
     }
   }
@@ -14,3 +14,10 @@ function mostrar(form) {
   alert(xmldata.join(""));
   //alert(xmldata);
 }
+
+$(document).ready(function () {
+  $("button").click(function () {    
+    mostrar(this.form);
+  })
+}
+);
