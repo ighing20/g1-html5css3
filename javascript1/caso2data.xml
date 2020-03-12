@@ -8,13 +8,11 @@
    <telefono>123456789</telefono>
 </cliente>
 <cliente>
-
    <nombre>David</nombre>
    <direccion>San Borja</direccion>
    <telefono>789456</telefono>
 </cliente>
 <cliente>
- 
    <nombre>Luis</nombre>
    <direccion>Ate</direccion>
    <telefono>87456932</telefono>
