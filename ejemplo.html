@@ -40,8 +40,6 @@ li a:hover{
 header h1 {
   padding-left: 15px;
   width: 30%;
-  border-style: solid;
-  border-color: black;
 }
 #menu {
   border-style: solid;
@@ -54,16 +52,19 @@ footer h3{
   text-align: center;
   padding-bottom: 15px;
 }
- header img{
-float: right;
+header{
+  background-color: blue;
+}
+img{
+  float: right;
   width: 10%;
   height: 50px;
   border-style: solid;
   border-color: red;
+  border-radius: 2px;
   /*overflow: hidden;*/
 }
 #content-form{
- background-color: chartreuse;
  width: 30%;
  margin-left: auto;
  margin-right: auto;
@@ -72,6 +73,7 @@ float: right;
 #content-form h2{
   padding-bottom: 30px;
 }
+
 footer{
   border-style: solid;
   border-color: black;
@@ -84,7 +86,24 @@ section{
   #contenedor{
     width: 100%; /**/
   }
+  #menu li {
+    text-align: center;
+    float: none;
+  }
+  img{
+    visibility: hidden;
+  }
 }
+img :hover{
+    opacity: 1;
+  }
+  /*
+  angular
+  jquery
+  añadir plugins
+  github desde la consola del visual
+  */
+
 
 </style>
 </head>
@@ -92,7 +111,12 @@ section{
 <div id="contenedor">
   <header> 
     <h1>IGH SOFT</h1>
-    <img src="imagenes/unnamed.jpg">
+   
+      <img src="imagenes/unnamed.jpg">
+   
+
+  
+    
   </header>
   <div id="menu">
   <ul>

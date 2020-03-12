@@ -1,0 +1,2 @@
+Para que las páginas se adapten a la pantalla de cualquier dispositivo portable el primer requisito es usar la 
+etiqueta Viewport.
