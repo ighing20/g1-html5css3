@@ -1,0 +1,23 @@
+<?xml-stylesheet type="text/xsl" href="tabla.xsl">
+
+<?xml version="1.0" encoding="utf-8"?>
+<bookstore>
+<book category="COOKING">
+
+   <nombre>Juan</nombre>
+   <direccion>Survo</direccion>
+   <telefono>123456789</telefono>
+</book>
+<book category="CHILDREN">
+
+     <nombre>David</nombre>
+   <direccion>San Borja</direccion>
+   <telefono>789456</telefono>
+</book>
+<book category="CHILDREN">
+ 
+     <nombre>Luis</nombre>
+   <direccion>Ate</direccion>
+   <telefono>87456932</telefono>
+</book>
+</bookstore>
