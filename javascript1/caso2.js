@@ -1,5 +1,3 @@
-var data = "<clientes><cliente><nombre>Juan</nombre><direccion>Lima</direccion><telefono>99999</telefono></cliente></clientes>";
-console.log(data);
 function loadDoc(e) {
     const file = e.target.files[0];
   
@@ -33,17 +31,17 @@ function loadDoc(e) {
   }
   
   function showDocInTable(xml) {
-    const table = document.querySelector("#bookTable > tbody");
-    const datasource = xml.querySelector("bookstore");
-    const books = datasource.querySelectorAll("book");
+    const table = document.querySelector("#tablaClientes > tbody");
+    const datasource = xml.querySelector("clientes");
+    const clientes = datasource.querySelectorAll("cliente");
   
     table.removeChild(table.children[0]);
   
-    Array.from(books).map((book, i) => {
+    Array.from(clientes).map((cliente, i) => {
       const tr = document.createElement("tr");
-      const nombre = tagToData(book.querySelector("nombre"));
-      const direccion = tagToData(book.querySelector("direccion"));
-      const telefono = tagToData(book.querySelector("telefono"));
+      const nombre = tagToData(cliente.querySelector("nombre"));
+      const direccion = tagToData(cliente.querySelector("direccion"));
+      const telefono = tagToData(cliente.querySelector("telefono"));
   
       tr.append(nombre,direccion, telefono);
       table.appendChild(tr);

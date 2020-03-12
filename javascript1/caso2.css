@@ -36,28 +36,28 @@ html {
     line-height: 35px;
     padding: 0 20px;
   }
-  #bookTable {
+  #tablaClientes {
     border-collapse: collapse;
     border: 1px solid #e5e5e5;
   }
-  #bookTable td,
-  #bookTable th {
+  #tablaClientes td,
+  #tablaClientes th {
     color: #444;
     font-size: 14px;
     padding: 15px 15px;
   }
-  #bookTable thead {
+  #tablaClientes thead {
     border-bottom: 2px solid #ddd;
   }
-  #bookTable thead th {
+  #tablaClientes thead th {
     background-color: #f5f5f5;
   }
-  #bookTable tbody {
+  #tablaClientes tbody {
     padding: 10px;
   }
-  #bookTable tbody tr:not(:last-child) {
+  #tablaClientes tbody tr:not(:last-child) {
     border-bottom: 1px solid #eee;
   }
-  #bookTable tbody td:not(:last-child) {
+  #tablaClientes tbody td:not(:last-child) {
     border-right: 1px solid #eee;
   }
